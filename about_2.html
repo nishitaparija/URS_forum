@@ -1,0 +1,188 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial - scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,=1.0">
+    <style>
+      * {box-sizing: border-box;}
+
+      body {
+        margin: 0;
+        font-family: 'lato', sans-serif;
+      }
+
+      .header {
+        overflow: hidden;
+        background-color: #4332dc;
+        padding: 20px 10px;
+      }
+
+      .header a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+      }
+
+      .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+
+      .header a.active {
+        background-color: 1A2238black;
+        color: white;
+      }
+
+      .header-right {
+        float: right;
+      }
+
+      .searchbox {
+        float: left;
+          }
+
+      input[type=text] {
+          padding: 6px;
+          margin-top: 8px;
+          font-size: 17px;
+          border: none;
+          }
+
+      .searchbox button {
+
+          padding: 8px;
+          margin-top: 10px;
+          margin-left: 10px;
+          background: rgba(42, 35, 184, 0.491);
+          font-size: 20px;
+          border-radius: 20%;
+          border: 1px solid 1A2238black;
+          cursor: pointer;
+          }
+
+      .searchbox button:hover {
+          background: rgba(63, 50, 205, 0.514);
+          }
+
+      .btn {
+          border: none;
+          color: white;
+          padding: 14px 28px;
+          cursor: pointer;
+      }
+
+      .login {background-color: #23C0AD;}
+      .login:hover {background-color: #23c0ae80;}
+
+      .register {color: black;}
+      .register {background-color: #FFB600;}
+      .register:hover {background-color: #ffb70081;}
+
+
+      #tables th {
+
+
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #1a223861;
+          color: black;
+        }
+
+
+      table{
+        height: 90%;
+        position: absolute; top:600px; left:110px;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 82%;
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+
+        width: 90%;
+        text-align: left;
+        padding: 16px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+
+
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+
+        .header-right {
+          float: none;
+        }
+      }
+
+      </style>
+  </head>
+  <body>
+    <div class = "header">
+    </header>
+    <a href="forum" class="logo">URF</a>
+    <div class="header-right">
+        </div>
+    <div class="header">
+
+      <div class="header-right">
+          <div class="searchbox" style="position:absolute; left:150px; top:14px;">
+
+          </div>
+      <div style="position:absolute; left:500px; top:20px;">
+
+        <a href="aboutme">About</a>
+        <a href="publications">Publications</a>
+        <a href="forum1">Research forums</a>
+    </div>
+      </div>
+      </div>
+      <div style="padding-left:20px">
+      </div>
+      </header>
+    </div>
+      <div>
+          <h1  style="position: absolute; top:200px; left:100px;">About</h1>
+          <p  style="position: absolute; top:300px; left:100px;">We are a team of developers who have created a forum dedicated to the RS under XYZ university</p>
+      </div>
+    </div>
+    <div>
+        <h1  style="position: absolute; top:600px; left:100px;">Educational Information</h1>
+        <p  style="position: absolute; top:700px; left:100px;">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+          This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+
+    </div>
+
+      <footer>
+        <div style="position: absolute; top:1100px; left:100px;">
+          <h1 >Contact Information</h1>
+          <p >Phone no: 9967898485</p>
+          <p >Email: maxxdmello777@gmail.com</p>
+          <p >Location: Mumbai, India</p>
+          <input type="text" placeholder="First name" id="first name" name="first name" style="position: absolute; top:150px; left:600px;"></input>
+          <input type="text" placeholder="Last name" id="last name" name="last name" style="position: absolute; top:200px; left:600px;"></input>
+          <input type="text" placeholder="Email" id="email" name="email" style="position: absolute; top:250px; left:600px;"></input>
+          <input type="text" placeholder="Subject" id="subject" name="subject" style="position: absolute; top:300px; left:600px;"></input>
+          <input type="text" placeholder="Leave a message" id="leave-message" name="leave-message"style="position: absolute; top:350px; left:600px;"></input>
+          <button class="btnn" style="position: absolute; top:400px; left:650px;">Submit</button>
+          <button class="btn more">More</button>
+        </div>
+      </footer>
+  </body>
+  </html>
